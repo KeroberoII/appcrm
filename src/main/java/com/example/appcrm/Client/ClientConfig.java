@@ -11,6 +11,7 @@ import java.util.List;
 @Configuration
 public class ClientConfig {
 
+
     @Bean
     CommandLineRunner commandLineRunner(ClientRepository repository) {
         return args -> {

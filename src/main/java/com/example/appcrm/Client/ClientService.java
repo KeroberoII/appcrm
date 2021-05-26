@@ -18,4 +18,8 @@ public class ClientService {
     public List<Client> getClient() {
         return  clientRepository.findAll();
     }
+
+    public void addNewClient(Client client) {
+        System.out.println(client);
+    }
 }
